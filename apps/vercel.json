@@ -1,5 +1,0 @@
-{
-  "buildCommand": "cd apps/host-app && npm run build",
-  "outputDirectory": "apps/host-app/dist",
-  "installCommand": "npm install"
-}
