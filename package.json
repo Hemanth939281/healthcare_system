@@ -1,0 +1,27 @@
+{
+  "name": "healthcare-mf-system",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:host": "npm --workspace=apps/host-app run dev",
+    "dev:auth": "npm --workspace=apps/auth-app run dev",
+    "dev:dashboard": "npm --workspace=apps/dashboard-app run dev",
+    "dev:patients": "npm --workspace=apps/patients-app run dev",
+    "dev:analytics": "npm --workspace=apps/analytics-app run dev"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.4",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-hot-toast": "^2.6.0",
+    "react-router-dom": "^7.14.2",
+    "tailwindcss": "^4.2.4"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-federation": "^1.4.1",
+    "typescript": "^6.0.3"
+  }
+}
