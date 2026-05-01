@@ -20,7 +20,7 @@ export default defineConfig({
       "react-redux": { singleton: true },
       "redux": { singleton: true },
       "react-router-dom": { singleton: true },
-    },
+    }
   } as any),
   ],
   server: {
