@@ -9,10 +9,10 @@ export default defineConfig({
   federation({
     name: "host",
     remotes: {
-      authApp: "https://healthcare-system-auth-app-cadf.vercel.app/assets/remoteEntry.js",
+      authApp: "https://healthcare-system-auth-app-cadf-o6el95kls.vercel.app/assets/remoteEntry.js",
       dashboardApp: "http://localhost:5002/assets/remoteEntry.js",
-      patientsApp: "http://localhost:5003/assets/remoteEntry.js",
-      analyticsApp: "https://healthcare-system-analytics-app-1r8.vercel.app/assets/remoteEntry.js",
+      patientsApp: "https://healthcare-system-patients-app-13bw-nepnbx482.vercel.app/assets/remoteEntry.js",
+      analyticsApp: "https://healthcare-system-analytics-hhypcrt1g-hemanth939281s-projects.vercel.app/assets/remoteEntry.js",
     },
     shared: {
     react: { singleton: true, requiredVersion: "^18.0.0" },
