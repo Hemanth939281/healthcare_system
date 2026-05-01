@@ -13,12 +13,14 @@
     "@healthcare-mf/ui": "*",
     "@healthcare-mf/utils": "*",
     "@originjs/vite-plugin-federation": "^1.4.1",
+    "@tailwindcss/vite": "^4.2.4",
     "firebase": "^12.12.1",
     "formik": "^2.4.9",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "react-hot-toast": "^2.6.0",
     "react-router-dom": "^7.14.2",
+    "tailwindcss": "^4.2.4",
     "yup": "^1.7.1"
   },
   "devDependencies": {
