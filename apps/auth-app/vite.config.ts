@@ -16,9 +16,6 @@ export default defineConfig({
       shared: {
         react: { singleton: true, requiredVersion: "^18.0.0" },
         "react-dom": { singleton: true, requiredVersion: "^18.0.0" },
-        "react-redux": { singleton: true },
-        "redux": { singleton: true },
-        "recharts": { singleton: true },
         "react-router-dom": { singleton: true },
       }
     } as any),
