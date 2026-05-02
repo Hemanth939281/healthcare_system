@@ -122,8 +122,8 @@ const LoginPage = () => {
 
   if (forgotPassword) {
     return (
-      <div className="h-screen flex items-center justify-center bg-gray-100">
-        <div className="bg-white p-6 rounded shadow-md w-80">
+      <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
+        <div className="bg-white p-6 rounded shadow-md w-full max-w-sm">
           <h2 className="text-xl font-bold mb-1">Forgot Password</h2>
           <p className="text-sm text-gray-500 mb-4">
             Enter your email and we'll send a reset link
@@ -164,10 +164,10 @@ const LoginPage = () => {
   }
 
   return (
-    <div className="h-screen flex items-center justify-center bg-gray-100">
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
       <form
         onSubmit={formik.handleSubmit}
-        className="bg-white p-6 rounded shadow-md w-80"
+        className="bg-white p-6 rounded shadow-md w-full max-w-sm"
       >
         <h2 className="text-xl mb-1 font-bold">
           {isLogin ? "Login" : "Sign Up"}
