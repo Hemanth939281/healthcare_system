@@ -12,8 +12,8 @@ export default defineConfig({
       "./Analytics": "./src/Root.tsx",
     },
     shared: {
-      react: { singleton: true, requiredVersion: "^18.0.0" },
-      "react-dom": { singleton: true, requiredVersion: "^18.0.0" },
+      react: { singleton: true, requiredVersion: "^19.0.0" },
+      "react-dom": { singleton: true, requiredVersion: "^19.0.0" },
       "recharts": { singleton: true },
       "react-router-dom": { singleton: true },
     }

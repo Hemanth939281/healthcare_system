@@ -15,8 +15,8 @@ export default defineConfig({
       dashboardApp: "http://localhost:5002/assets/remoteEntry.js",
     },
     shared: {
-      react: { singleton: true, requiredVersion: "^18.0.0" },
-      "react-dom": { singleton: true, requiredVersion: "^18.0.0" },
+      react: { singleton: true, requiredVersion: "^19.0.0" },
+      "react-dom": { singleton: true, requiredVersion: "^19.0.0" },
       "react-redux": { singleton: true },
       "redux": { singleton: true },
       "recharts": { singleton: true },

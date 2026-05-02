@@ -14,8 +14,8 @@ export default defineConfig({
         "./Auth": "./src/App.tsx",
       },
       shared: {
-        react: { singleton: true, requiredVersion: "^18.0.0" },
-        "react-dom": { singleton: true, requiredVersion: "^18.0.0" },
+        react: { singleton: true, requiredVersion: "^19.0.0" },
+        "react-dom": { singleton: true, requiredVersion: "^19.0.0" },
         "react-router-dom": { singleton: true },
       }
     } as any),
